@@ -1,0 +1,25 @@
+@import './../colors';
+
+.pages-formations{
+  section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    &:nth-child(2n){
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+    .info{
+      width: 40%;
+    }
+    p{
+      
+      width: 100%;
+      color: rgb(70,70,70);
+      font-weight: 500;
+      margin: 20px 0;
+    }
+  }
+}

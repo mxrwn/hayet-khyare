@@ -1,0 +1,41 @@
+@import './../colors';
+@import './../components/header';
+@import './../components/mail_popup';
+@import './formations';
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+a{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  color: $link_color;
+}
+
+h1{
+  font-size: 36px;
+  color: #5F006F;
+}
+
+body{
+  margin: 0 150px;
+  width: auto;
+  background-image: url('./../../assets/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button{
+  background-color: $formations-front-color;
+  width: 300px;
+  padding: 1em;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+}
